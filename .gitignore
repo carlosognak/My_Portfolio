@@ -1,0 +1,17 @@
+# Ignorer les fichiers de build
+/dist/
+/node_modules/
+
+# Ignorer les fichiers temporaires
+.tmp/
+.cache/
+
+# Ignorer les fichiers d'environnement
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignorer les fichiers spécifiques
+.DS_Store
