@@ -3486,3 +3486,16 @@ body.absolute_header .breadcrumb_area {
 }
 
 /* END: Modal CSS */
+
+/* Start: New CSS class */
+.institute{
+
+}
+.contry{
+	font-weight: bold;
+}
+.lagages{
+	font-style: italic;
+	font-size: smaller;
+}
+/* END: New CSS class */
