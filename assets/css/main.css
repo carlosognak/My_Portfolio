@@ -518,6 +518,10 @@ body.loaded {
 	animation: loading 1s infinite alternate;
 }
 
+.dipl_title{
+	font-size: 20px;
+}
+
 .load-text span:nth-child(1) {
 	-webkit-animation-delay: 0s;
 	animation-delay: 0s;
@@ -1838,7 +1842,7 @@ body.loaded {
 	color: var(--tj-white);
 }
 .resume-widget .resume-item .resume-title {
-	font-size: 25px;
+	font-size: 23px;
 	text-transform: uppercase;
 	margin-bottom: 8px;
 }
