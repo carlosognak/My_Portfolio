@@ -201,6 +201,9 @@ body.light-mode {
 .light-mode .skills-section {
 	background: var(--tj-white);
 }
+.light-mode .skills-section2 {
+	background: #d5c7f2;;
+}
 .light-mode .skills-widget .skill-inner {
 	background: var(--tj-off-white);
 }

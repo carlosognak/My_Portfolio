@@ -52,6 +52,7 @@ Description: Gerold - Personal Portfolio HTML5 Template
 	--tj-body: #dddddd;
 	--tj-white: #ffffff;
 	--tj-off-white: #f6f3fc;
+	--tj-off-pink: #d5c7f2;
 	--tj-black: #000000;
 	--tj-black-2: #050709;
 	--tj-heading-primary: #102039;
@@ -201,6 +202,7 @@ a h6:hover {
 }
 
 .ul-reset {
+	font-weight: bold;
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -210,7 +212,7 @@ a h6:hover {
 	display: -webkit-inline-box;
 	display: -ms-inline-flexbox;
 	display: inline-flex;
-	gap: 10px;
+	gap: 10 px;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
@@ -723,18 +725,19 @@ body.loaded {
 .tj-header-area .logo-box {
 	max-width: 60px;
 	width: 100%;
-	margin-right: 35px;
+	margin-right: 8px;
 }
 .tj-header-area .logo-box a {
 	display: inline-block;
 }
 .tj-header-area .header-info-list ul li {
 	margin-right: 25px;
+	font-weight: var(--tj-fw-bold);
 }
 .tj-header-area .header-info-list ul li a {
 	color: var(--tj-white);
 	font-size: var(--tj-fz-btn);
-	font-weight: var(--tj-fw-medium);
+	font-weight: var(--tj-fw-bold);
 	text-decoration: none;
 	transition: all 0.3s ease-in-out 0s;
 }
@@ -3488,6 +3491,9 @@ body.absolute_header .breadcrumb_area {
 /* END: Modal CSS */
 
 /* Start: New CSS class */
+.menu-element{
+	font-weight: bold;
+}
 .institute{
 
 }
@@ -3498,4 +3504,21 @@ body.absolute_header .breadcrumb_area {
 	font-style: italic;
 	font-size: smaller;
 }
+
+.skill-card {
+	transition: transform 0.3s;
+  }
+  
+  .skill-card:hover {
+	transform: scale(1.05);
+  }
+  
+  .skill-icon {
+	font-size: 3rem;
+	color:  var(--tj-theme-primary);
+  }
+  
+  h2 {
+	color: #007bff;
+  }
 /* END: New CSS class */
