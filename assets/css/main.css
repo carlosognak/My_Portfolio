@@ -1693,7 +1693,7 @@ body.loaded {
 .portfolio_approach .approach_title .title,
 .portfolio_story .story_title .title {
 	font-size: 20px;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	color: var(--tj-black-2);
 	margin-bottom: 0;
 }
